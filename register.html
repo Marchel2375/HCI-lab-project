@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>beaudei : Register</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/register.css">
+<body>
+<!-- Top Navbar -->
+	<div class="top-navbar">
+		<div id = "navbar-logo">
+			<img src="asset\Logo\logo.jpg" alt="Logo" id="logo">
+		</div>
+
+		<div class="top-navbar-container">
+			<div class="top-navbar-content" >
+				<a href="index.html" class="top-navbar-color"> <p class="link-top-navbar"> Home </p> </a>
+			</div>
+			<div class="top-navbar-content" >
+				<a href="promotion.html" class="top-navbar-color"> <p class="link-top-navbar"> Promotion </p> </a>
+			</div>
+			<div class="top-navbar-content" >
+				<a href="register.html" class="top-navbar-color"> <p class="link-top-navbar"> Register </p> </a>
+			</div>
+
+			<div class="dropDown">
+                    <a href="" class="top-navbar-color"> <p class="link-top-navbar"> Shop </p> </a>
+                    <div class="dropDown-content">
+                    	<div class="dropDown-container">
+                        	<a href="makeup.html" class="top-navbar-color"><p class="link-top-navbar">Make Up</p></a>
+                    	</div>
+                        <div class="dropDown-container">
+                        	<a href="skincare.html" class="top-navbar-color"><p class="link-top-navbar">Skin Care</p></a>
+                    	</div>
+                    </div>
+            </div>
+		</div>
+    </div>
+    <div>
+		<p class="freedeliverytext">FREE DELIVERY!</p>
+	</div>
+
+<!-- TITLE -->
+	<div class="title-container">
+		<h1 class="title-text" >REGISTER</h1>
+		<p class="title-text">Register today and get a FREE delivery on purchase!</p>
+	</div><br><br>
+
+<!-- CONTENT -->
+<div>
+    <div class="form">
+        <label class="firstnamelabel">First Name &emsp;</label>
+        <input type="text" placeholder="First Name" class="firstname" id="firstNameID">&emsp;
+        <label class="lastnamelabel">Last Name &emsp;</label>
+        <input type="text" placeholder="Last Name" class="lastname" id="lastNameID">
+    </div><br>
+
+    <div class="form">
+        <label class="emaillabel">Email &emsp;</label>
+        <input type="text" placeholder="Email" class="email" id="emailID">
+    </div><br>
+
+    <div class="form">
+        <label>Password &emsp;</label>
+        <input type="password" placeholder="Password (8 Characters Minimum, Alphanumeric, 1 Uppercase and Lowercase Characters Minimum)" class="password" id="passwordID">
+    </div><br>
+
+    <div class="form">
+        <label class="confirmpasswordlabel">Confirm &emsp;</label>
+        <input type="password" placeholder="Confirm Password" class="confirmpassword" id="confirmPasswordID">
+    </div><br>
+
+    <div class="form">
+        <label class="addresslabel">Address</label>
+        <textarea name="address" placeholder="Address (5 Words Minimum)" class="address" id="addressID"></textarea>
+    </div><br>
+
+    <div class="form">
+        <label for="gender" class="genderlabel">Gender &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+        <input type="radio" name="gender" id="maleID">
+        <label>Male</label>&emsp;&emsp;
+        <input type="radio" name="gender" id="femaleID">
+        <label>Female</label>
+    </div><br>
+
+    <div class="form">
+        <label class="skintypelabel">&emsp;&emsp;&emsp;Skin Type</label>
+        <select name="skin" class="skindropdown" id="skinID">
+            <option value="Normal">Normal</option>
+            <option value="Dry">Dry</option>
+            <option value="Oily">Oily</option>
+        </select>
+    </div><br><br><br>
+
+    <div class="form">
+        <input type="checkbox" id="iagreeID">
+        <label>I Agree with the Terms and Conditions</label>
+    </div><br><br>
+
+    <div class="form">
+        <button class="button" onclick="submit()">Submit</button>
+    </div><br><br>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p class="footertext">Copyright &copy; 2020 All Rights Reserved</p>
+</div>
+
+<script src="js/register.js"></script>
+</body>
+</html>

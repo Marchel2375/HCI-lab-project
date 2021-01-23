@@ -1,0 +1,219 @@
+.form{
+    text-align: center;
+    font-size: 15pt;
+}
+
+.firstname{
+    width: 300px;
+    height: 30px;
+    margin-left: 130px;
+}
+
+.firstnamelabel{
+    position: absolute;
+    float: left;
+    margin-left: px;
+}
+
+.lastname{
+    width: 160px;
+    height: 30px;
+    margin-left: -10px;
+}
+
+.lastnamelabel{
+    position: static;
+}
+
+.email{
+    width: 621px;
+    height: 30px;
+    margin-left: 118px;
+}
+
+.emaillabel{
+    position: absolute;
+    float: left;
+    margin-left: -1px;
+}
+
+.password{
+    width: 622px;
+    height: 30px;
+}
+
+.confirmpassword{
+    width: 622px;
+    height: 30px;
+    margin-left: 118px;
+}
+
+.confirmpasswordlabel{
+    position: absolute;
+    float: left;
+    margin-left: -2px;
+    margin-top: 5px;
+}
+
+.address{
+    width: 623px;
+    height: 100px;
+    margin-right: -120px;
+}
+
+.addresslabel{
+    position: absolute;
+    float: left;
+    margin-top: 40px;
+    margin-left: -120px;
+}
+
+.genderlabel{
+    margin-left: -285px;
+}
+
+.skintypelabel{
+    position: absolute;
+    float: left;
+    margin-left: -63px;
+}
+
+.skindropdown{
+    width: 622px;
+    height: 30px;
+    margin-left: 125px;
+}
+
+.button{
+    background-color: #ff5d5d;
+    color: white;
+    width: 180px;
+    height: 40px;
+    border: none;
+    font-size: 14pt;
+}
+
+.button:hover{
+    color: #a0f684;
+    width: 185px;
+    height: 45px;
+    border: none;
+    font-size: 15pt;
+}
+
+@media screen and (max-width: 800px){
+    *{
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	#navbar-logo{
+		width: 100%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+	}
+
+	#logo{
+		width: 200px;
+		height: 60px;
+	}
+	.top-navbar{
+		background-color: #ececec;
+		height: 550px;
+	}
+	.top-navbar-container{
+		float: left;
+		width: 100%;
+		line-height: 80px;
+		padding: 0;
+	}
+
+
+	.top-navbar-content{
+		padding:0;
+		position: relative;
+		background-color: #ff5d5d;
+		width: 100%; 
+		height: auto; 
+		line-height: 80px; 
+		margin: 0; 
+	}
+
+	.dropDown{
+		padding:0;
+	    width: 100%; 
+		height: 80px; 
+		line-height: 80px; 
+		margin: 0; 
+		float: left;
+		background-color: #ff5d5d;
+	}  
+
+	.dropDown-content{
+		left: 0;
+		margin: 0;
+		padding: 0;
+	    display: none;
+	    width: 100%;
+	    height: auto;
+	    position: relative;
+	    line-height: 55px;
+		background-color: #ff5d5d;
+		z-index: 999;
+	}
+
+
+
+	.dropDown-container{
+		width: 	100%;
+		height: 60px;
+	}
+
+	.dropDown-container a{
+		padding: 0;
+	    display: block;
+	    text-align: center;
+	}
+
+	.navbar{
+		margin:0;
+		background-color: #f6f6f6;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1000;
+		top: 0;
+	}
+
+	#nav-title{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		text-align:center;	
+		margin:0;
+	}
+
+	.freedeliverytext{
+		float: right;
+		margin-top: -593px;
+		margin-right: 30px;
+		color: #ff5d5d;
+		font-size: 14pt;
+	}
+
+	.title-container{	
+		background: #ececec;
+		text-align: center;
+	}
+	
+    h1.title-text{
+        position: relative;
+        bottom: 150px;
+    }
+    
+    p.title-text{
+        position: relative;
+        bottom: 50px;
+        height: 1px;
+	}
+}

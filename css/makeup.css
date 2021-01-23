@@ -1,0 +1,68 @@
+html, body {
+        height: 100vh;
+        margin: 0px;
+ }
+#card-content-container{
+		overflow: auto;
+		position:relative;
+		left:15%;
+		width:85%;
+		height: 100px;
+}
+
+.card-subtitle-text{
+	padding: 20px 100px;
+	margin: 0;
+	font-size: 20px;
+}
+
+
+.sub-content{
+	width:100%;
+}
+
+
+.card-container{
+	display: none;
+	margin-left: 80px;
+	width:150px;
+	height:300px;
+	overflow: hidden;
+	float:left;
+}
+
+.show {
+	display: block;
+}
+
+.icon-card{
+
+	width: 150px;
+	height: 140px;
+	margin-bottom: 8px;
+	
+}
+
+.card-text{
+	/*text-align: center;*/
+	margin:0;
+
+}
+
+@media screen and (max-width: 800px){
+	#navbar{
+		margin-top: 0;
+		width: 	auto;
+		width:100%;
+		position: relative;
+	}
+
+	#card-content-container{
+		left:0;
+		width: 100%;
+		overflow: visible;
+		height: auto;
+	}
+
+}
+

@@ -1,0 +1,410 @@
+/*General CSS*/
+
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+	margin: 0;
+}
+
+.top-navbar{
+	background-color: #ff5d5d;
+	height: 80px;
+
+}
+
+.top-navbar-container{
+	float: left;
+	width: auto;
+	height: 100%;
+	padding: 0px 100px;
+	line-height: 80px;
+}
+
+.top-navbar-content{
+	width: auto; 
+	height: auto; 
+	line-height: 80px; 
+	margin: 0; 
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#navbar-logo{
+	padding-left: 100px;
+	float: left;
+	text-align: center;
+}
+
+#logo{
+	max-width: 	100%;
+	height: 80px;
+	margin: auto;
+}
+
+.top-navbar-color{
+	color:#FFFFFF ;
+	text-decoration: none;
+	display: inline;
+}
+
+.top-navbar-color:hover{
+	color: #a0f684;
+}
+
+.freedeliverytext{
+	float: right;
+	margin-top: -50px;
+	margin-right: 30px;
+	color: #FFFFFF;
+	font-size: 14pt;
+}
+
+p.link-top-navbar{
+	font-family: Myriad Pro;
+	font-size: 16pt;
+	text-align: center;
+	margin: 0;
+
+}
+
+.dropDown{
+    width: auto; 
+	height: auto; 
+	line-height: 80px; 
+	margin: 0; 
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+}  
+
+
+.dropDown-content{
+	left: 767px;
+    display: none;
+    width: 130px;
+    position: absolute;
+    line-height: 55px;
+    background-color: #ff5d5d;
+}
+
+
+
+.dropDown-container{
+	width: 130px;
+	height: 60px;
+}
+
+.dropDown-container a{
+	padding-left: 20px;
+	padding-right: 20px;
+    width: auto;
+    display: block;
+    text-align: center
+}
+
+
+
+.dropDown:hover .dropDown-content{
+    display: block;
+}
+
+
+/*Title*/
+.title-container{	
+	background: #ececec;
+	height: 100px;
+}
+.title-text{
+	padding: 11px 100px;
+	margin: 0;
+}
+
+/* Makeup and Skincare */
+.makeupimg{
+	width: 80px;
+	height: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: static;
+}
+
+.makeuptitle{
+	font-size: 16pt;
+	font-weight: bold;
+	margin-left: 440px;
+	margin-top: -80px;
+	position: static;
+}
+.makeuptext{
+	margin-left: 440px;
+	margin-top: -30px;
+	position: static;
+}
+
+.skincareimg{
+	width: 80px;
+	height: 80px;
+	padding-top: 10px;
+	padding-bottom: 16px;
+	margin-top: -120px;
+	margin-left: 855px;
+}
+
+
+.skincaretitle{
+	font-size: 16pt;
+	font-weight: bold;
+	margin-left: 950px;
+	margin-top: -88px;
+	position: static;
+}
+
+.skincaretext{
+	margin-left: 950px;
+	margin-top: -30px;
+	position: static;
+}
+
+
+
+/*Side Navbar*/
+
+#navbar{
+	margin-top: 180px;
+	background-color: #f6f6f6;
+	height: auto;
+	position: absolute;
+	width: 15%;
+	z-index: 1000;
+	top: 0;
+}
+
+#nav-title{
+	text-align: center;
+}
+
+.link-text{
+	text-decoration: none;
+	color: black;
+	width:100%;
+	text-align: center;
+	padding: 0;
+	border: none;
+	background: none
+}
+.link-text:hover{
+	text-decoration: none;
+}
+.navbar-text{
+	text-align: center;
+	margin: 0;
+	padding: 10px 0;
+}
+.navbar-text:hover{
+	color:white ;
+	text-align: center;
+	background-color:#ff5d5d ;
+	transition: 0.2s;
+}
+/* footer */
+.footer{
+	background-color: #ff5d5d;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	margin-top: 5px;
+}
+
+.footertext{
+	color: white;
+	margin: 0;
+}
+
+
+/*Screen up to 1366px width*/
+@media screen and (max-width: 800px){
+
+	*{
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	#navbar-logo{
+		width: 100%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+	}
+
+	#logo{
+		width: 200px;
+		height: 60px;
+	}
+	.top-navbar{
+		background-color: #ececec;
+		height: 550px;
+	}
+	.top-navbar-container{
+		float: left;
+		width: 100%;
+		line-height: 80px;
+		padding: 0;
+	}
+
+
+	.top-navbar-content{
+		padding:0;
+		position: relative;
+		background-color: #ff5d5d;
+		width: 100%; 
+		height: auto; 
+		line-height: 80px; 
+		margin: 0; 
+	}
+	.dropDown{
+		padding:0;
+	    width: 100%; 
+		height: 80px; 
+		line-height: 80px; 
+		margin: 0; 
+		float: left;
+		background-color: #ff5d5d;
+	}  
+
+	.dropDown-content{
+		left: 0;
+		margin: 0;
+		padding: 0;
+	    display: none;
+	    width: 100%;
+	    height: auto;
+	    position: relative;
+	    line-height: 55px;
+		background-color: #ff5d5d;
+		z-index: 999;
+	}
+
+
+
+	.dropDown-container{
+		width: 	100%;
+		height: 60px;
+	}
+
+	.dropDown-container a{
+		padding: 0;
+	    display: block;
+	    text-align: center;
+	}
+
+
+
+
+	.title-text{
+		padding-bottom: 20px;
+		margin-bottom: -400px;
+		text-align: center;	
+	}
+
+
+	.navbar{
+		margin:0;
+		background-color: #f6f6f6;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1000;
+		top: 0;
+	}
+
+	#nav-title{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		text-align:center;	
+		margin:0;
+	}
+
+	.freedeliverytext{
+		float: right;
+		margin-top: -593px;
+		margin-right: 30px;
+		color: #ff5d5d;
+		font-size: 14pt;
+	}
+
+	
+    h1.title-text{
+        position: relative;
+        bottom: 150px;
+    }
+    
+    p.title-text{
+        position: relative;
+        bottom: 50px;
+        height: 1px;
+	}
+
+	/* Makeup and Skincare */
+	.makeupimg{
+		width: 80px;
+		height: 80px;
+		padding-top: 10px;
+		padding-bottom: 50px;
+		margin-left: 240px;
+		margin-top: -150px;
+		position: relative;
+		bottom: 90px;
+		text-align: center;
+	}
+
+	.makeuptitle{
+		font-size: 16pt;
+		font-weight: bold;
+		margin-left: 350px;
+		margin-top: -200px;
+		padding-top: -200px;
+		position: relative;
+		bottom: 193px;
+		height: 1px;
+	}
+	.makeuptext{
+		margin-left: 350px;
+		margin-top: -30px;
+		position: relative;
+		bottom: 157px;
+		height: 1px;
+	}
+
+	.skincareimg{
+		width: 80px;
+		height: 80px;
+		padding-top: 10px;
+		padding-bottom: 16px;
+		margin-top: -120px;
+		margin-left: 240px;
+		position: relative;
+		bottom: 0px;
+	}
+
+
+	.skincaretitle{
+		font-size: 16pt;
+		font-weight: bold;
+		margin-left: 350px;
+		margin-top: -88px;
+		position: relative;
+		bottom: 70px;
+	}
+
+	.skincaretext{
+		margin-left: 350px;
+		margin-top: -30px;
+		position: relative;
+		bottom: 70px;
+	}
+
+	
+}
